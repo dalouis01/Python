@@ -19,3 +19,6 @@ while chans > 0 :
         break
 if chans == 0 :
     print("\nOu pèdi")
+    print("test")
+    print("test")
+    
