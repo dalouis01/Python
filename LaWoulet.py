@@ -16,6 +16,6 @@ while chans > 0 :
         chans -= 1
     elif nonb_chwazi == nonb_odinate :
         print("\n Ou Genyen !!!!")
-        break
-if chans == 0 :
+        break 
+if chans == 0 : # Lè tout chans yo fini
     print("\nOu pèdi")
