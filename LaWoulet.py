@@ -1,7 +1,7 @@
 # Fonksyon ki retounen yon nonb aleyatwa nan yon entèval
 from random import randrange
 nonb_odinate = randrange(0 , 500) # entèval [0 - 500]
-print(nonb_odinate)
+# print(nonb_odinate)
 print("           ===== Byenvini Nan Jwet La Woulèt la ===== \n")
 print(" Chwazi yon nonb ant 0 ak 499 , si li egal ak pa odinate a wap genyen \n")
 chans = 5 # Kantite chans jwè a genyen
