@@ -1,5 +1,9 @@
-import string
-print(int(2))
-print(chr(65+0))
-fonks_dekryp= lambda mo: ''.join(chr(65+int(mo[i])) for i in range(len(mo)))
-print(fonks_dekryp("1-2"))
+
+def fonks_deskryp(mo) :
+    repons = []
+    mo = mo.split("-")
+    for i in range(len(mo)):
+        repons.append(chr(65+int(mo[i])))
+    return "".join(repons)
+print(fonks_deskryp("0-11-14"))
+    
